@@ -1,0 +1,4 @@
+@import url(https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css);
+@import url(https://cdn.jsdelivr.net/npm/font-awesome-animation@0.2.1/dist/font-awesome-animation.min.css);
+@import url(https://cdn.jsdelivr.net/gh/Aicirou/goindex-theme-acrou@2.0.8/dist/css/chunk-vendors.9b14a1cb.css);
+@import url(https://rawcdn.githack.com/assassins21/ddl/0fcc1060297d7e20b6125ec3d53755e359eb11fd/ui.css);
