@@ -4040,7 +4040,7 @@ fieldset[disabled] .button {
 }
 
 .table {
-	background-color: #000;
+	background-color: #3d4149;
 	color: #fff
 }
 
@@ -4210,7 +4210,7 @@ fieldset[disabled] .button {
 
 .table.is-hoverable.is-striped tbody tr:not(.is-selected):hover,
 .table.is-hoverable tbody tr:not(.is-selected):hover {
-	background-color: #041f2c;
+	background-color: #585b62;
 	color: #dbdbdb
 }
 
@@ -7115,7 +7115,7 @@ screen and (min-width:769px) {
 }
 
 .navbar.is-dark {
-	background-color: #000;
+	background-color: #3a3c40;
 	color: #fff
 }
 
@@ -7161,8 +7161,7 @@ screen and (min-width:769px) {
 	.navbar.is-dark .navbar-start>a.navbar-item.is-active,
 	.navbar.is-dark .navbar-start>a.navbar-item:focus,
 	.navbar.is-dark .navbar-start>a.navbar-item:hover {
-
-		background-color: #000;
+		background-color: #292929;
 		color: #fff
 	}
 	.navbar.is-dark .navbar-end .navbar-link:after,
@@ -7172,8 +7171,7 @@ screen and (min-width:769px) {
 	.navbar.is-dark .navbar-item.has-dropdown.is-active .navbar-link,
 	.navbar.is-dark .navbar-item.has-dropdown:focus .navbar-link,
 	.navbar.is-dark .navbar-item.has-dropdown:hover .navbar-link {
-		display:none;
-		background-color: #000;
+		background-color: #292929;
 		color: #fff
 	}
 	.navbar.is-dark .navbar-dropdown a.navbar-item.is-active {
@@ -9919,7 +9917,7 @@ screen and (min-width:769px) {
 @media print,
 screen and (min-width:769px) {
 	.columns:not(.is-desktop) {
-		display: none
+		display: flex
 	}
 }
 
@@ -11539,8 +11537,8 @@ screen and (min-width:769px) {
 
 .is-divider-vertical[data-content]:after,
 .is-divider[data-content]:after {
-	background: ##373737;
-	color: #fff;
+	background: #fff;
+	color: #b5b5b5;
 	content: attr(data-content);
 	display: inline-block;
 	font-size: .75rem;
