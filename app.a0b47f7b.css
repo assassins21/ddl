@@ -2956,7 +2956,7 @@ a.box:active{
     color:currentColor
 }
 .table thead{
-    background-color:#242424
+    background-color:#090909
 }
 .table thead td,.table thead th{
     border-width:0 0 2px;
@@ -8775,7 +8775,7 @@ body{
     background-color:transparent
 }
 .no-content{
-    background:url(https://images2.imgbox.com/d9/49/hR4rx8oC_o.png) no-repeat 50% 50%;
+    background:url(https://images2.imgbox.com/b5/01/3D0ni3v0_o.png) no-repeat 50% 50%;
     height:240px;
     line-height:240px;
     text-align:center;
