@@ -4040,7 +4040,7 @@ fieldset[disabled] .button {
 }
 
 .table {
-	background-color: #3d4149;
+	background-color: #222;
 	color: #fff
 }
 
@@ -4172,7 +4172,7 @@ fieldset[disabled] .button {
 .table thead td,
 .table thead th {
 	border-width: 0 0 2px;
-	color: #00FFFF
+	color: #FFF
 }
 
 .table tfoot {
@@ -4210,7 +4210,7 @@ fieldset[disabled] .button {
 
 .table.is-hoverable.is-striped tbody tr:not(.is-selected):hover,
 .table.is-hoverable tbody tr:not(.is-selected):hover {
-	background-color: #585b62;
+	background-color: #5e5e5e;
 	color: #dbdbdb
 }
 
@@ -4250,6 +4250,7 @@ fieldset[disabled] .button {
 }
 
 .tags:last-child {
+display:none;
 	margin-bottom: -.5rem
 }
 
@@ -7115,7 +7116,7 @@ screen and (min-width:769px) {
 }
 
 .navbar.is-dark {
-	background-color: #3a3c40;
+	background-color: #000;
 	color: #fff
 }
 
@@ -7147,6 +7148,7 @@ screen and (min-width:769px) {
 	.navbar.is-dark .navbar-end>.navbar-item,
 	.navbar.is-dark .navbar-start .navbar-link,
 	.navbar.is-dark .navbar-start>.navbar-item {
+	display:none;
 		color: #fff
 	}
 	.navbar.is-dark .navbar-end .navbar-link.is-active,
@@ -8001,6 +8003,7 @@ a.navbar-item:hover {
 	}
 	.container>.navbar .navbar-menu,
 	.navbar>.container .navbar-menu {
+	display: none;
 		margin-right: -.75rem
 	}
 	.navbar.is-fixed-bottom-desktop,
@@ -11537,8 +11540,8 @@ screen and (min-width:769px) {
 
 .is-divider-vertical[data-content]:after,
 .is-divider[data-content]:after {
-	background: #fff;
-	color: #b5b5b5;
+	background: #1a1a1a;
+	color: #fff;
 	content: attr(data-content);
 	display: inline-block;
 	font-size: .75rem;
@@ -11898,7 +11901,7 @@ body {
 }
 
 .container {
-	max-width: 980px
+	max-width: 85%
 }
 
 .iconfont {
@@ -12061,7 +12064,7 @@ body {
 
 .is-divider,
 .is-divider-vertical {
-	border-top: .1rem solid #f5f5f5
+	border-top: .1rem solid #3b3b3b
 }
 
 .is-divider-vertical[data-content]:after,
