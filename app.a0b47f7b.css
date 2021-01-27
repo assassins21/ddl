@@ -5030,6 +5030,7 @@ a.list-item{
     border-color:#fff
 }
 .navbar.is-dark .navbar-burger{
+display:none;
     color:#fff
 }
 @media screen and (min-width:1024px){
