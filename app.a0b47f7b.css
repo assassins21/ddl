@@ -1247,9 +1247,9 @@ a.box:active{
     color:#363636
 }
 .button.is-text{
-    background-color:transparent;
+    background-color:#0eabd5;
     border-color:transparent;
-    color:#4a4a4a;
+    color:#000;
     text-decoration:underline
 }
 .button.is-text.is-focused,.button.is-text.is-hovered,.button.is-text:focus,.button.is-text:hover{
@@ -4318,9 +4318,9 @@ a.tag:hover{
     content:"\0227B"
 }
 .card{
-    background-color:#fff;
+    background-color:##1c1c1c;
     box-shadow:0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
-    color:#4a4a4a;
+    color:#fff;
     max-width:100%;
     position:relative
 }
@@ -4332,7 +4332,8 @@ a.tag:hover{
 }
 .card-header-title{
     align-items:center;
-    color:#363636;
+	background:#333;
+    color:#fff;
     display:flex;
     flex-grow:1;
     font-weight:700;
@@ -4355,7 +4356,7 @@ a.tag:hover{
     padding:1.5rem
 }
 .card-content,.card-footer{
-    background-color:transparent
+    background-color:#000
 }
 .card-footer{
     border-top:1px solid #ededed;
